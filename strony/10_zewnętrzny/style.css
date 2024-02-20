@@ -1,0 +1,16 @@
+body {
+	background-color: #2d2d2b;
+	font-family: arial;
+	}
+span {
+	color: cyan;
+	font-size: larger;
+	}
+h1 {
+	font-weight: bold;
+	color: #FFF;
+	}
+p {
+	color: #f5f5dc;
+	text-align: justify;
+	}
