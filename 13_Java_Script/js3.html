@@ -1,0 +1,37 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-2">
+<SCRIPT LANGUAGE= "JavaScript" type= "text/javascript">
+<!-- Ukrycie przed przeglądarkami nie obsługującymi JavaScriptów
+var timerID = null
+function wyswietlDate()
+{
+  var data = new Date();
+  var miesiac = data.getMonth() + 1;
+  if (miesiac < 10){
+      miesiac = "0" + miesiac;
+  }
+  var dzien = data.getDate();
+  if (dzien < 10){
+      dzien = "0" + dzien;
+  }
+  var rok = data.getYear();
+  if (rok < 1000){
+      rok = 2000 + rok - 100;
+  }
+  var dzisiaj = dzien + "." + miesiac + "." + rok;
+  document.write(dzisiaj);
+}
+// Koniec kodu JavaScript -->
+</SCRIPT>
+</HEAD>
+<BODY>
+<H3>Dzisiaj mamy:
+<SCRIPT LANGUAGE= "JavaScript" type= "text/javascript">
+<!-- Ukrycie przed przeglądarkami nie obsługującymi JavaScriptów
+wyswietlDate()
+// Koniec kodu JavaScript -->
+</SCRIPT>
+</H3>
+</BODY>
+</HTML>
