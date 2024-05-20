@@ -60,7 +60,7 @@ main {
 }
 
 .gallery img {
-    max-width: 200px; /* Maksymalna szerokość obrazu */
+    max-width: 25%; /* Maksymalna szerokość obrazu */
     height: auto;
     border: 2px solid #ddd;
     border-radius: 5px;
